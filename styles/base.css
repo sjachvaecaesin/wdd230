@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 body {
     display: grid;
     height: 100vh;
@@ -25,6 +27,7 @@ header h1 {
     text-align: left;
     margin: auto 0;
     margin-left: 40px;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 nav {
@@ -54,6 +57,7 @@ footer {
     padding: 1.7rem;
     text-align: center;
     grid-column: 1 / 4;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 img {
@@ -71,6 +75,7 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: white;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 main ul li {
@@ -81,7 +86,8 @@ main ul li {
     border: 1px solid;
     border-radius: 2%;
     margin: 10px;
-    box-shadow: 0 0 20px #777
+    box-shadow: 0 0 20px #777;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 .card h3 {
