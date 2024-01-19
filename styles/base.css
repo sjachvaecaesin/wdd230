@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-
 body {
     display: grid;
     height: 100vh;
@@ -31,19 +29,35 @@ header h1 {
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
     background: black;
     grid-column: 1 / 4;
-    padding: .78rem;
+    padding: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+    margin: 8px;
 }
   
 main {
     background: white;
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     align-content: center;
     height: 100%;
-    width: 80%;
+    width: 85%;
     padding: 1rem;
     margin: auto;
 }
@@ -58,24 +72,13 @@ footer {
     text-align: center;
     grid-column: 1 / 4;
     font-family: 'Crimson Text', Helvetica, sans-serif;
+    margin-top: 150px;
 }
 
 img {
     width: 125px;
     height: auto;
     border: 1px solid;
-}
-
-nav ul li {
-    text-align: center;
-    list-style: none;
-    margin: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 main ul li {
@@ -94,7 +97,6 @@ main ul li {
     background-color: red;
     border-start-start-radius: 5%;
     border-start-end-radius: 5%;
-    height: 100%;
     margin: auto;
     text-align: center;
     padding: .5rem;
