@@ -8,7 +8,7 @@ body {
 header {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    background: red;
+    background: rgb(212, 9, 9);
     grid-column: 1 / 4;
     padding: .17rem;
 }
@@ -67,7 +67,7 @@ main h2 {
 }
   
 footer {
-    background: red;
+    background: rgb(255, 105, 105);
     padding: 1.7rem;
     text-align: center;
     grid-column: 1 / 4;
@@ -87,16 +87,16 @@ main ul li {
 
 .card {
     border: 1px solid;
-    border-radius: 2%;
+    border-radius: 6px;
     margin: 10px;
     box-shadow: 0 0 20px #777;
     font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 .card h3 {
-    background-color: red;
-    border-start-start-radius: 5%;
-    border-start-end-radius: 5%;
+    background-color: rgb(255, 105, 105);
+    border-start-start-radius: 6px;
+    border-start-end-radius: 6px;
     margin: auto;
     text-align: center;
     padding: .5rem;
