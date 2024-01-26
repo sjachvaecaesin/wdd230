@@ -28,6 +28,41 @@ header h1 {
     font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
+header button {
+    margin-top: -125px;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+
+.active::before {
+    content: ">  ";
+}
+
+.active::after {
+    content: "  <";
+}
+
 nav {
     background: black;
     grid-column: 1 / 4;
@@ -65,6 +100,12 @@ main {
 main h2 {
     text-align: center;
 }
+
+#map {
+    grid-column: 1/4;
+    width: 79%;
+    margin: auto;
+}
   
 footer {
     background: rgb(255, 105, 105);
@@ -72,7 +113,7 @@ footer {
     text-align: center;
     grid-column: 1 / 4;
     font-family: 'Crimson Text', Helvetica, sans-serif;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 img {

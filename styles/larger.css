@@ -21,4 +21,17 @@
         text-align: center;
         list-style: none;
     }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    #map {
+        margin-top: 18px;
+        width: 73.5%;
+    }
 }
