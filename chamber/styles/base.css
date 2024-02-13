@@ -41,6 +41,12 @@ header button {
 	content: "X";
 }
 
+#mode {
+	font-size: 1.5rem;
+    margin: auto;
+    cursor: pointer;
+}
+
 .navigation {
     display: none;
 }
@@ -96,10 +102,63 @@ nav ul li {
     padding: 0;
 }
 
+.information {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 4/5;
+}
+
 .cards {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-row: 4/5;
+    grid-row: 5/6;
+}
+
+#events {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    color: #330731;
+}
+
+#events h2 {
+    grid-row: 1/2;
+    background-color: #d8c677;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 0 10px;
+}
+
+#events h3 {
+    grid-row: 2/3;
+    background-color: #d8c677;
+    padding: 10px 10px 10px 20px;
+    margin: 0 10px 0 10px;
+}
+
+#events p {
+    grid-row: 3/4;
+    background-color: #d8c677;
+    margin: 0 10px 20px 10px;
+    padding: 0 20px 20px 20px;
+}
+
+#weather {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    color: #330731;
+}
+
+#weather h3 {
+    grid-row: 1/2;
+    background-color: #d8c677;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 0 10px;
+}
+
+#weather p {
+    grid-row: 2/3;
+    background-color: #d8c677;
+    margin: 0 10px 20px 10px;
+    padding: 0 20px 30px 20px;
 }
 
 .card {
@@ -115,6 +174,13 @@ nav ul li {
     margin: auto;
 }
 
+.card h2 {
+    grid-row: 2/3;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 0 10px;
+    background-color: #d8c677;
+}
+
 .card h3 {
     grid-row: 2/3;
     padding: 10px 10px 10px 20px;
@@ -125,7 +191,7 @@ nav ul li {
 .card p {
     grid-row: 3/4;
     background-color: #d8c677;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 30px 10px;
     padding: 0 20px 20px 20px;
 }
 

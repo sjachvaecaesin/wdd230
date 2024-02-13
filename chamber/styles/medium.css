@@ -27,8 +27,16 @@
         padding-left: 15px;
     }
 
+    .information {
+        display: flex;
+    }
+
     .cards {
         display: flex;
+    }
+
+    #weather p {
+        grid-row: 3/4;
     }
 
     nav ul {
