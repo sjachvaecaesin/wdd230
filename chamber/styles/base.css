@@ -45,6 +45,7 @@ header button {
 	font-size: 1.5rem;
     margin: auto;
     cursor: pointer;
+    grid-column: 3/4;
 }
 
 .navigation {
