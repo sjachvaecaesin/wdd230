@@ -1,6 +1,36 @@
 @media (min-width: 640px) {
 
+    body {
+        display: grid;
+        height: 100vh;
+        grid-template: auto auto auto 1fr auto / 1fr 1fr 1fr 1fr 1fr;
+        margin: 0px;
+    }
+
+    header {
+        grid-column: 1/7;
+    }
+
+    nav {
+        grid-column: 1/7;
+    }
+
+    .hero {
+        grid-column: 3/4;
+    }
+
+    .herolabel {
+        left: 20%;
+        top: 250px;
+        padding: 1rem;
+    }
+
+    .herolabel p {
+        font-size: 1.4rem;
+    }
+
     main {
+        grid-column: 1/7;
         display: grid;
         grid-template-columns: 2fr 1fr;
         width: 75%;
@@ -31,7 +61,12 @@
     }
 
     #map {
+        grid-column: 1/7;
         margin-top: 18px;
         width: 73.5%;
+    }
+
+    footer {
+        grid-column: 1/7;
     }
 }

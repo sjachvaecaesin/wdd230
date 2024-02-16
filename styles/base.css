@@ -17,6 +17,9 @@ header img {
     display: block;
     margin-left: auto;
     grid-column: 3/4;
+    width: 125px;
+    height: auto;
+    border: 1px solid;
 }
 
 header h1 {
@@ -86,7 +89,24 @@ nav a {
     font-family: 'Crimson Text', Helvetica, sans-serif;
     margin: 8px;
 }
-  
+
+.hero img{
+    width: auto;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+.herolabel {
+	position: absolute;
+    left: 20px;
+    top: 190px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: .5rem;
+	opacity: 0.75;
+}
+
 main {
     background: white;
     grid-column: 1 / 4;
@@ -114,12 +134,6 @@ footer {
     grid-column: 1 / 4;
     font-family: 'Crimson Text', Helvetica, sans-serif;
     margin-top: 70px;
-}
-
-img {
-    width: 125px;
-    height: auto;
-    border: 1px solid;
 }
 
 main ul li {
