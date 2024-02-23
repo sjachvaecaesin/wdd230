@@ -14,3 +14,18 @@ hamButton.addEventListener('click', () => {
 		heroLabel.style.top = "350px";
 	};
 });
+
+const visitsElement = document.querySelector(".visits");
+
+let visits = Number(window.localStorage.getItem("visitList")) || 0;
+
+if (visits == 0) {
+	visitsElement.textContent = "Your first time here.";
+}
+else {
+	visitsElement.textContent = visits;
+}
+
+visits++;
+
+localStorage.setItem("visitList", visits);
