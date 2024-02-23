@@ -141,6 +141,10 @@ main ul li {
     list-style: none;
 }
 
+.label {
+    margin: 5px 0 10px 10px;
+}
+
 .card {
     border: 1px solid;
     border-radius: 6px;
