@@ -8,12 +8,6 @@ let lastDate = window.localStorage.getItem("lastDate");
 let difference = today - lastDate;
 let days = difference / msToDays;
 
-console.log(today);
-console.log(lastDate);
-console.log(difference);
-console.log(visits);
-console.log(currentDate);
-
 if (visits == 0) {
    visitsElement.textContent = "Welcome! Let us know if you have any questions."
 } else if (difference < msToDays) {
