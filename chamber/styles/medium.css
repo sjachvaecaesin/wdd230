@@ -55,4 +55,18 @@
     .navigation {
         display: block;
     }
+
+
+    #disc-grid {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    #disc-grid img {
+        grid-column: 2/3;
+        grid-row: 1/9;
+    }
+
+    .display {
+        grid-column: 1/2;
+    }
 }
