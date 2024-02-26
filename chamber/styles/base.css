@@ -234,6 +234,11 @@ footer {
     width: 100%;
     height: auto;
     margin: auto;
+    transition: opacity 2s;
+}
+
+#disc-grid img:hover {
+    opacity: 0%;
 }
 
 .display {
