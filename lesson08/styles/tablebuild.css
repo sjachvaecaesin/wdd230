@@ -1,0 +1,33 @@
+table {
+	margin: 10px auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+caption {
+	padding: 10px;
+	caption-side: bottom;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+
+.category {
+	background-color: darkgrey;
+}
+
+.category th:first-child {
+	background-color: black;
+}
+
+th, td {
+	padding: 5px 10px;
+	border: 1px solid;
+}
+
+tbody tr:nth-child(even) {
+	background-color: lightgrey;
+}
