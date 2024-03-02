@@ -1,0 +1,20 @@
+:root {
+    --background: #eee;
+    --border: 1px solid black;
+    --pad: 1rem;
+}
+
+fieldset {
+	margin: 1rem;
+	border: var(--border);
+	padding: var(--pad);
+	background-color: var(--background);
+}
+
+label input{
+    margin: 15px 45px 15px 15px;
+}
+
+#submit {
+    margin: 0 0 0 115px;
+}

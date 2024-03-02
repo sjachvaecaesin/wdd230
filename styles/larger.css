@@ -69,4 +69,10 @@
     footer {
         grid-column: 1/7;
     }
+
+
+    label input{
+        margin: 15px 80px 15px 15px;
+    }    
+
 }
