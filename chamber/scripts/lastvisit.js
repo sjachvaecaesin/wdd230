@@ -7,6 +7,8 @@ let today = Date.now();
 let lastDate = window.localStorage.getItem("lastDate");
 let difference = today - lastDate;
 let days = difference / msToDays;
+console.log(today);
+console.log(lastDate);
 
 if (visits == 0) {
    visitsElement.textContent = "Welcome! Let us know if you have any questions."
