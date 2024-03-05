@@ -38,16 +38,17 @@
             <fieldset>
                 <label>First Name* <input type="text" id="first" name="fname" required></label>
                 <label>Last Name* <input type="text" id="last" name="lname" required></label>
-                <label>Title/Position* <input type="text" id="t/p" name="title/position" pattern="[A-Za-z.\-\ ].{7,}" required></label>
+                <label>Title/Position* <input type="text" id="title" name="title/position" pattern="[A-Za-z.\-\ ].{7,}" required></label>
                 <label>Email* <input type="email" id="mail" name="email" placeholder="johndoe@gmail.com" required></label>
                 <label>Phone* <input type="tel" id="phone" name="phone" required></label>
                 <label>Business Name* <input type="text" id="business" name="business" required></label>
 
-                <label>Membership Level</label>
-                <legend><input type="radio" name="membership" value="NP"> Non-Profit</legend>
-                <legend><input type="radio" name="membership" value="Bronze"> Bronze</legend>
-                <legend><input type="radio" name="membership" value="Silver"> Silver</legend>
-                <legend><input type="radio" name="membership" value="Gold"> Gold</legend>
+                <label id="member">Membership Level
+                    <legend><input type="radio" name="membership" value="NP"> Non-Profit</legend>
+                    <legend><input type="radio" name="membership" value="Bronze"> Bronze</legend>
+                    <legend><input type="radio" name="membership" value="Silver"> Silver</legend>
+                    <legend><input type="radio" name="membership" value="Gold"> Gold</legend>
+                </label>
 
                 <label>
                     Business description
@@ -65,5 +66,6 @@
         </p>
     </footer>
     <script src="scripts/modified.js"></script>
+    <script src="scripts/hidden.js"></script>
 </body>
 </html>

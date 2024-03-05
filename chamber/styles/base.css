@@ -269,5 +269,46 @@ footer {
 }
 
 #joinpage form {
-    grid-column: 3/6;
+    grid-column: 3/7;
+}
+
+#joinpage fieldset {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#first {
+    grid-row: 1/2;
+}
+
+#last {
+    grid-row: 2/3;
+}
+
+#title {
+    grid-row: 3/4;
+}
+
+#mail {
+    grid-row: 4/5;
+}
+
+#phone {
+    grid-row: 5/6;
+}
+
+#member {
+    grid-row: 7/8;
+}
+
+#business {
+    grid-row: 8/9;
+}
+
+#description {
+    grid-row: 9/10;
+}
+
+#joinpage label {
+    margin: 15px 0 15px 0;
 }
