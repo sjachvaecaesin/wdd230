@@ -305,8 +305,12 @@ footer {
     grid-row: 8/9;
 }
 
+#deschead {
+    grid-row: 12/13;
+}
+
 #description {
-    grid-row: 9/10;
+    grid-row: 13/14;
 }
 
 #joinpage label {

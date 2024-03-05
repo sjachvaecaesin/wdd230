@@ -9,7 +9,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://sjachvaecaesin.github.io/wdd230/chamber/images/elizabethtown.jpg">
     <meta property="og:url" content="https://sjachvaecaesin.github.io/wdd230/chamber/join.html">
-    <title>Elizabethtown Chamber of Commerce Site</title>
+    <title>Elizabethtown Chamber of Commerce Join Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -43,17 +43,16 @@
                 <label>Phone* <input type="tel" id="phone" name="phone" required></label>
                 <label>Business Name* <input type="text" id="business" name="business" required></label>
 
-                <label id="member">Membership Level
-                    <legend><input type="radio" name="membership" value="NP"> Non-Profit</legend>
-                    <legend><input type="radio" name="membership" value="Bronze"> Bronze</legend>
-                    <legend><input type="radio" name="membership" value="Silver"> Silver</legend>
-                    <legend><input type="radio" name="membership" value="Gold"> Gold</legend>
-                </label>
+                <label id="member">Membership Level</label>   
+                <label><input type="radio" name="membership" value="NP"> Non-Profit</label>
+                <label><input type="radio" name="membership" value="Bronze"> Bronze</label>
+                <label><input type="radio" name="membership" value="Silver"> Silver</label>
+                <label><input type="radio" name="membership" value="Gold"> Gold</label>
 
-                <label>
+                <label id="deschead">
                     Business description
                 </label>
-                <textarea id="description" name="description" placeholder="Enter business information here (optional)"></textarea>
+                <textarea name="description" id="description" placeholder="Enter business information here (optional)"></textarea>
 
                 <input type="hidden" id="hide" name="hide">
             </fieldset>
