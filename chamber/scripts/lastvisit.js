@@ -1,6 +1,6 @@
 const visitsElement = document.querySelector("#visits");
 const currentDate = new Date();
-const msToDays = 84600000;
+const msToDays = 86400000;
 
 let visits = Number(window.localStorage.getItem("visitList")) || 0;
 let today = Date.now();
