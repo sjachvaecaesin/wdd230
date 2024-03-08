@@ -10,9 +10,17 @@ async function getLinks() {
 
 const displayLinks = (weeks) => {
     weeks.forEach((week) => {
-        let list = document.createElement("li");
-        let att = document.createElement("a");
-        console.log(week);
+        week.links.forEach((link) => {
+            let li = document.createElement("li");
+            let a = document.createElement("a");
+
+            console.log(link);
+            a.setAttribute("href", link.url);
+            a.textContent = link.title;
+
+            li.appendChild(a);
+            listElement.appendChild(li);
+        });
     });
 }
 
