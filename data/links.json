@@ -1,0 +1,112 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/mediaquery.html",
+                    "title": "Media Query Example"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Lesson 2 Design Document"
+                },
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Lesson 2 Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "lesson03/images/combinator.JPG",
+                    "title": "Combinator Screenshot"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/ominak-sjach/pen/abMVzEM",
+                    "title": "Pseudo-element Codepen"
+                },
+                {
+                    "url": "https://codepen.io/ominak-sjach/pen/RwdjPQj",
+                    "title": "Hamburger menu Codepen"
+                },
+                {
+                    "url": "https://codepen.io/ominak-sjach/pen/zYbWrxN",
+                    "title": "Pseudo-classes Codepen"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Lesson 5 BoM List"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "Landscape WebP Image"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images Example"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading Example"
+                },
+                {
+                    "url": "lesson07/bomsave.html",
+                    "title": "Saving BoM list"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Tables Example"
+                },
+                {
+                    "url": "lesson08/index.html",
+                    "title": "Form Example"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Prophets JavaScript Autofit"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    
+                }
+            ]
+        }
+    ]
+}
