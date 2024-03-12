@@ -11,9 +11,8 @@ async function getMembers() {
 
 const displayCompanies = (companies) => {
     companies.forEach((company) => {
-        let li = document.createElement("li");
         let a = document.createElement("a");
-        let article = document.createElement("article");
+        let section = document.createElement("section");
         let img = document.createElement("img");
         let h3 = document.createElement("h3");
         let p = document.createElement("p");
@@ -25,15 +24,13 @@ const displayCompanies = (companies) => {
         a.setAttribute("href", company.url);
         a.setAttribute("alt", "Company website")
 
-        article.appendChild(img);
-        article.appendChild(h3);
-        article.appendChild(p);
-        article.appendChild(a);
-        article.classList.add("card");
+        section.appendChild(img);
+        section.appendChild(h3);
+        section.appendChild(p);
+        section.appendChild(a);
+        section.classList.add("card");
 
-        li.appendChild(article);
-
-        listElement.appendChild(li);
+        listElement.appendChild(section);
     });
 };
 

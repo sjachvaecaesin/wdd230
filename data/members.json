@@ -62,6 +62,15 @@
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-medium.webp",
             "level": "xxxxxxxxxxxxx",
             "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 7",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-medium.webp",
+            "level": "xxxxxxxxxxxxx",
+            "optional": "xxxxxxxxxxxxx"
         }
     ]
 }

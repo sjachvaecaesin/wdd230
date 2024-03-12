@@ -319,7 +319,7 @@ footer {
 
 
 
-#diregrid {
+#list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
