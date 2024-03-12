@@ -6,7 +6,7 @@ const url = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
 async function getMembers() {
     const response = await fetch(url);
     const data = await response.json();
-    displayCompanies(data.Companies);
+    displayCompanies(data.companies);
 }
 
 const displayCompanies = (companies) => {
@@ -36,16 +36,16 @@ const displayCompanies = (companies) => {
     });
 };
 
-gridButton.addEventListener("click", showList);
+// gridButton.addEventListener("click", showList);
 
-listButton.addEventListener("click", showGrid);
+// listButton.addEventListener("click", showGrid);
 
-function showList() {
-    display.classList.add("file");
-    display.classList.remove("grid");
-}
+// function showList() {
+//     display.classList.add("file");
+//     display.classList.remove("grid");
+// }
 
-function showGrid() {
-    display.classList.add("grid");
-    display.classList.remove("file");
-}
+// function showGrid() {
+//     display.classList.add("grid");
+//     display.classList.remove("file");
+// }
