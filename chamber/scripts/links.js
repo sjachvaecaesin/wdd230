@@ -20,14 +20,16 @@ const displayCompanies = (companies) => {
         h3.textContent = company.name;
         img.setAttribute("src", company.image);
         img.setAttribute("alt", "Company picture");
-        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}`
+        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}<br><br>`
         a.setAttribute("href", company.url);
-        a.setAttribute("alt", "Company website")
+        a.setAttribute("alt", "Company website");
+        a.textContent = "Company link";
+
+        p.appendChild(a);
 
         section.appendChild(img);
         section.appendChild(h3);
         section.appendChild(p);
-        section.appendChild(a);
         section.classList.add("card");
 
         listElement.appendChild(section);
@@ -36,16 +38,16 @@ const displayCompanies = (companies) => {
 
 getMembers();
 
-// gridButton.addEventListener("click", showList);
+gridButton.addEventListener("click", showList);
 
-// listButton.addEventListener("click", showGrid);
+listButton.addEventListener("click", showGrid);
 
-// function showList() {
-//     display.classList.add("file");
-//     display.classList.remove("grid");
-// }
+function showList() {
+    display.classList.add("file");
+    display.classList.remove("grid");
+}
 
-// function showGrid() {
-//     display.classList.add("grid");
-//     display.classList.remove("file");
-// }
+function showGrid() {
+    display.classList.add("grid");
+    display.classList.remove("file");
+}
