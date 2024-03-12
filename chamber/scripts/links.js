@@ -38,16 +38,16 @@ const displayCompanies = (companies) => {
 
 getMembers();
 
-gridButton.addEventListener("click", showList);
+gridButton.addEventListener("click", showGrid);
 
-listButton.addEventListener("click", showGrid);
+listButton.addEventListener("click", showList);
 
 function showList() {
-    //display.classList.add("file");
-    //display.classList.remove("grid");
+    list.classList.toggle("grid");
+    list.classList.toggle("file");
 }
 
 function showGrid() {
-    //display.classList.add("grid");
-    //display.classList.remove("file");
+    list.classList.toggle("file");
+    list.classList.toggle("grid");
 }

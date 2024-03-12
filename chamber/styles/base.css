@@ -319,9 +319,40 @@ footer {
 
 
 
-#list {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file .card img {
+    display: none;
+}
+
+.file .card {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    width: 75%;
+}
+
+.file .card p {
+    margin: 0;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.file .card h3 {
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 
 #area {
