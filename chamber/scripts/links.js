@@ -19,11 +19,11 @@ const displayCompanies = (companies) => {
         let p = document.createElement("p");
 
         h3.textContent = company.name;
-        img.setAttribute(src, company.image);
-        img.setAttribute(alt, "Company picture");
+        img.setAttribute("src", company.image);
+        img.setAttribute("alt", "Company picture");
         p.textContent = `${company.address}<br>${company.phone}<br>${company.level}<br>${company.optional}`
-        a.setAttribute(href, company.url);
-        a.setAttribute(alt, "Company website")
+        a.setAttribute("href", company.url);
+        a.setAttribute("alt", "Company website")
 
         article.appendChild(h3);
         article.appendChild(p);
@@ -35,6 +35,8 @@ const displayCompanies = (companies) => {
         listElement.appendChild(li);
     });
 };
+
+getMembers();
 
 // gridButton.addEventListener("click", showList);
 
