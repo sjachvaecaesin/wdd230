@@ -38,16 +38,16 @@ const displayCompanies = (companies) => {
 
 getMembers();
 
-gridButton.addEventListener("click", showList);
+// gridButton.addEventListener("click", showList);
 
-listButton.addEventListener("click", showGrid);
+// listButton.addEventListener("click", showGrid);
 
-function showList() {
-    display.classList.add("file");
-    display.classList.remove("grid");
-}
+// function showList() {
+//     display.classList.add("file");
+//     display.classList.remove("grid");
+// }
 
-function showGrid() {
-    display.classList.add("grid");
-    display.classList.remove("file");
-}
+// function showGrid() {
+//     display.classList.add("grid");
+//     display.classList.remove("file");
+// }
