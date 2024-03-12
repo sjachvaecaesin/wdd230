@@ -1,0 +1,95 @@
+{
+    "Companies": [
+        {
+            "Company": [
+                {
+                    "name": "Company 1",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 2",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 3",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 4",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 5",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 6",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        },
+        {
+            "Company": [
+                {
+                    "name": "Company 7",
+                    "address": "xxxxxxxxxxxxx",
+                    "phone": "1235554567",
+                    "url": "#",
+                    "image": "https://placekitten.com/320/400",
+                    "level": "xxxxxxxxxxxxx",
+                    "optional": "xxxxxxxxxxxxx"
+                }
+            ]
+        }
+    ]
+}

@@ -316,3 +316,15 @@ footer {
 #joinpage label {
     margin: 15px 0 15px 0;
 }
+
+
+
+#diregrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#area {
+    width: 100%;
+    text-align: center;
+}
