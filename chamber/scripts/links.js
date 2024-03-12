@@ -11,7 +11,6 @@ async function getMembers() {
 
 const displayCompanies = (companies) => {
     companies.forEach((company) => {
-        console.log(company);
         let li = document.createElement("li");
         let a = document.createElement("a");
         let article = document.createElement("article");
@@ -22,10 +21,11 @@ const displayCompanies = (companies) => {
         h3.textContent = company.name;
         img.setAttribute("src", company.image);
         img.setAttribute("alt", "Company picture");
-        p.textContent = `${company.address}<br>${company.phone}<br>${company.level}<br>${company.optional}`
+        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}`
         a.setAttribute("href", company.url);
         a.setAttribute("alt", "Company website")
 
+        article.appendChild(img);
         article.appendChild(h3);
         article.appendChild(p);
         article.appendChild(a);
