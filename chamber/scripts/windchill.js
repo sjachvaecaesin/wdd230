@@ -34,7 +34,7 @@ async function apiFetch() {
 apiFetch();
 
 function displayCast(data) {
-    castElement.innerHTML = `3 Day Temperature Forecast: ${data.list[0].main.temp}&deg;F | ${data.list[1].main.temp}&deg;F | ${data.list[2].main.temp}&deg;F`
+    castElement.innerHTML = `3 Day Temperature Forecast: ${data.list[1].main.temp}&deg;F | ${data.list[2].main.temp}&deg;F | ${data.list[3].main.temp}&deg;F`
 }
 
 function displayResults(data) {
