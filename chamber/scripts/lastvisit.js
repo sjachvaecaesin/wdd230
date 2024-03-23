@@ -7,6 +7,7 @@ let today = Date.now();
 let lastDate = window.localStorage.getItem("lastDate");
 let difference = today - lastDate;
 let days = difference / msToDays;
+console.log(days);
 console.log(today);
 console.log(lastDate);
 
