@@ -43,11 +43,11 @@ gridButton.addEventListener("click", showGrid);
 listButton.addEventListener("click", showList);
 
 function showList() {
-    list.classList.toggle("grid");
-    list.classList.toggle("file");
+    list.classList.remove("grid");
+    list.classList.add("file");
 }
 
 function showGrid() {
-    list.classList.toggle("file");
-    list.classList.toggle("grid");
+    list.classList.remove("file");
+    list.classList.add("grid");
 }
