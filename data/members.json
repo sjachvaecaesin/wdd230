@@ -6,7 +6,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Non-Profit",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -15,7 +15,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -24,7 +24,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -33,7 +33,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Silver",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -42,7 +42,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Non-Profit",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -51,7 +51,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Bronze",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -60,7 +60,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Silver",
             "optional": "xxxxxxxxxxxxx"
         },
         {
@@ -69,7 +69,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
-            "level": "xxxxxxxxxxxxx",
+            "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         }
     ]
