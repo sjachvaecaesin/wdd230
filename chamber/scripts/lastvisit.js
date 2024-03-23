@@ -2,16 +2,15 @@ const visitsElement = document.querySelector("#visits");
 const currentDate = new Date();
 const msToDays = 86400000;
 
-let visits = Number(window.localStorage.getItem("visitList")) || 0;
 let today = Date.now();
-let lastDate = window.localStorage.getItem("lastDate");
+let lastDate = window.localStorage.getItem("lastDate") || 0;
 let difference = today - lastDate;
 let days = difference / msToDays;
 console.log(days);
 console.log(today);
 console.log(lastDate);
 
-if (visits == 0) {
+if (lastDate == 0) {
    visitsElement.textContent = "Welcome! Let us know if you have any questions."
 } else if (difference < msToDays) {
     visitsElement.textContent = "Back so soon! Awesome!";
@@ -23,7 +22,4 @@ if (visits == 0) {
     }
 }
 
-visits++;
-
-localStorage.setItem("visitList", visits);
 localStorage.setItem("lastDate", today);
