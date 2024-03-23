@@ -109,10 +109,6 @@ nav ul li {
 	color: #330731;
 }
 
-#close::before {
-    content: "X";
-}
-
 .about {
     grid-row: 3/4;
     padding: 2em;
