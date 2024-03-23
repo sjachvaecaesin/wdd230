@@ -34,6 +34,11 @@
 
     .cards {
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    .spotlight {
+        width: 100%;
     }
 
     nav ul {

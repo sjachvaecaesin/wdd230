@@ -1,53 +1,40 @@
-const listElement = document.querySelector("#list");
-const gridButton = document.querySelector("#grid");
-const listButton = document.querySelector("#file");
-const url = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
+const cardsElement = document.querySelector(".cards");
+const members = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
 
 async function getMembers() {
-    const response = await fetch(url);
+    const response = await fetch(members);
     const data = await response.json();
     displayCompanies(data.companies);
 }
 
 const displayCompanies = (companies) => {
-    companies.forEach((company) => {
-        let a = document.createElement("a");
-        let section = document.createElement("section");
-        let img = document.createElement("img");
-        let h3 = document.createElement("h3");
-        let p = document.createElement("p");
+    let temp = companies;
+    for (i = 0; i < 3; i++) {
+        let company = Math.floor(Math.random() * temp.length);
+        if (temp[company].level == "Gold" || temp[company].level == "Silver") {
+            let section = document.createElement("section");
+            let img = document.createElement("img");
+            let h3 = document.createElement("h3");
+            let p = document.createElement("p");
 
-        h3.textContent = company.name;
-        img.setAttribute("src", company.image);
-        img.setAttribute("alt", "Company picture");
-        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}<br><br>`
-        a.setAttribute("href", company.url);
-        a.setAttribute("alt", "Company website");
-        a.textContent = "Company link";
+            h3.textContent = companies[company].name;
+            img.setAttribute("src", companies[company].image);
+            img.setAttribute("alt", "Company picture");
+            p.innerHTML = `Address: ${companies[company].address}<br>Phone: ${companies[company].phone}\<br>Membership: ${companies[company].level}<br>Extra: ${companies[company].optional}<br><br>`;
 
-        p.appendChild(a);
+            section.appendChild(img);
+            section.appendChild(h3);
+            section.appendChild(p);
+            section.classList.add("card");
+            section.classList.add("spotlight");
 
-        section.appendChild(img);
-        section.appendChild(h3);
-        section.appendChild(p);
-        section.classList.add("card");
-
-        listElement.appendChild(section);
-    });
+            cardsElement.appendChild(section);
+            temp.splice(company, 1);
+        }
+        else {
+            i--;
+        }
+    }
 };
 
 getMembers();
-
-gridButton.addEventListener("click", showGrid);
-
-listButton.addEventListener("click", showList);
-
-function showList() {
-    list.classList.remove("grid");
-    list.classList.add("file");
-}
-
-function showGrid() {
-    list.classList.remove("file");
-    list.classList.add("grid");
-}

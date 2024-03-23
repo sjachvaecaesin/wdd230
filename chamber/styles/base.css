@@ -75,6 +75,14 @@ nav ul li {
     list-style: none;
 }
 
+.active::before {
+    content: ">  ";
+}
+
+.active::after {
+    content: "  <";
+}
+
 #banner {
     display: grid;
     grid-template-columns: 24fr 1fr;
