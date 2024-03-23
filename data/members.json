@@ -6,6 +6,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 1 Picture",
             "level": "Non-Profit",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -15,6 +16,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 2 Picture",
             "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -24,6 +26,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
+            "alt": "Company 3 Picture",
             "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -33,6 +36,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 4 Picture",
             "level": "Silver",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -42,6 +46,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 5 Picture",
             "level": "Non-Profit",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -51,6 +56,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
+            "alt": "Company 6 Picture",
             "level": "Bronze",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -60,6 +66,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 7 Picture",
             "level": "Silver",
             "optional": "xxxxxxxxxxxxx"
         },
@@ -69,6 +76,7 @@
             "phone": "1235554567",
             "url": "#",
             "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 8 Picture",
             "level": "Gold",
             "optional": "xxxxxxxxxxxxx"
         }

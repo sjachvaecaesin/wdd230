@@ -22,7 +22,7 @@ const displayCompanies = (companies) => {
         img.setAttribute("alt", "Company picture");
         p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}<br><br>`
         a.setAttribute("href", company.url);
-        a.setAttribute("alt", "Company website");
+        a.setAttribute("alt", company.alt);
         a.textContent = "Company link";
 
         p.appendChild(a);

@@ -19,7 +19,7 @@ const displayCompanies = (companies) => {
 
             h3.textContent = companies[company].name;
             img.setAttribute("src", companies[company].image);
-            img.setAttribute("alt", "Company picture");
+            img.setAttribute("alt", companies[company].alt);
             p.innerHTML = `Address: ${companies[company].address}<br>Phone: ${companies[company].phone}\<br>Membership: ${companies[company].level}<br>Extra: ${companies[company].optional}<br><br>`;
 
             section.appendChild(img);
