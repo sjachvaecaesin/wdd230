@@ -292,6 +292,10 @@ footer {
     transition: opacity 2s;
 }
 
+#disc-grid picture {
+    margin: 0 10px 0 10px;
+}
+
 #disc-grid img:hover {
     opacity: 0%;
 }
