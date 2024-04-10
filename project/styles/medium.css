@@ -1,0 +1,27 @@
+@media (min-width: 650px) {
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+    }
+
+	nav ul li {
+        flex: 1 1 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+}

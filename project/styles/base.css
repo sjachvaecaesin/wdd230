@@ -1,0 +1,171 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr 40px;
+    grid-row: 1/2;
+    background-color: #4b644a;
+}
+
+header img {
+    grid-column: 1/2;
+    height: auto;
+    width: 150px;
+}
+
+header h1 {
+    grid-column: 2/3;
+    color: white;
+    padding-left: 15px;
+}
+
+header button {
+    grid-column: 3/4;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+#mode {
+	font-size: 1.5rem;
+    margin: auto;
+    cursor: pointer;
+    grid-column: 3/4;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+
+nav {
+    grid-row: 2/3;
+    padding: 0px;
+}
+
+nav a:link, a:visited, a:active {
+    color: #330731;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+}
+
+.active::after {
+    content: "  📌";
+}
+
+#banner {
+    display: grid;
+    grid-template-columns: 24fr 1fr;
+    grid-template-rows: 0;
+    text-align: center;
+    background-color: #d8c677;
+    margin: 20px 30px 0 30px;
+}
+
+#banner h2 {
+    grid-column: 1/2;
+    padding: 15px;
+    margin: 10px;
+}
+
+#banner button {
+    grid-column: 2/3;
+}
+
+#close {
+    font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #330731;
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row: 5/6;
+}
+
+#weather {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    color: #330731;
+}
+
+#weather h3 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    background-color: #d8c677;
+    padding: 10px 10px 0 20px;
+    margin: 10px 10px 0 10px;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    color: #330731;
+    margin: 0 10px 0 10px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    grid-row: 1/2;
+}
+
+.card h2 {
+    grid-row: 2/3;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 0 10px;
+    background-color: #d8c677;
+}
+
+.card h3 {
+    grid-row: 2/3;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0 0 0;
+    background-color: #d8c677;
+}
+
+.card p {
+    grid-row: 3/4;
+    background-color: #d8c677;
+    margin: 0 0 30px 0;
+    padding: 0 20px 20px 20px;
+}
+
+footer {
+    grid-row: 5/6;
+    background: #3c4e3b;
+    padding: .6rem;
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+}
+
