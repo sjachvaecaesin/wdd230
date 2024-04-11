@@ -1,4 +1,4 @@
-const url = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
+const url = "https://sjachvaecaesin.github.io/wdd230/project/data/vehicles.json";
 
 async function getRentals() {
     const response = await fetch(url);
