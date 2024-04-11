@@ -223,6 +223,11 @@ textarea {
 
 
 
+/* Rentals Page Section */
+#table-space {
+    margin: 150px 0;
+}
+
 table {
     border-collapse: collapse;
     border: 1px solid black;
