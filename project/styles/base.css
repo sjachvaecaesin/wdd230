@@ -237,3 +237,36 @@ table {
 th, td {
     text-align: center;
 }
+
+
+
+/* Reservations Page Section */
+#joinpage {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#joinpage form {
+    grid-row: 2/3;
+    display: inline-block;
+    margin: auto;
+}
+
+#info {
+    grid-row: 1/2;
+    margin: 10px 0 20px 0;
+}
+
+#info h2 {
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 0 10px;
+    background-color: #023368;
+    color: white;
+}
+
+#info ul {
+    padding: 30px;
+    margin: 0 10px 0 10px;
+    background-color: #82BCD6;
+    color: black;
+}

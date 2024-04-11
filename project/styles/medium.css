@@ -43,4 +43,22 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    
+    #joinpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0;
+    }
+
+    
+    #joinpage form {
+        grid-column: 5/8;
+        display: inline-block;
+        margin: auto;
+    }
+
+    #info {
+        grid-column: 2/4;
+    }
 }

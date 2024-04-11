@@ -31,7 +31,84 @@
             <li><a href="https://sjachvaecaesin.github.io/wdd230/project/contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="joinpage">
+        <div id="info">
+            <h2>Agreement Information</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <label>Date* <input type="date" id="date" name="orderDate" required></label>
+                <br>
+                <br>
+                <label>Period</label>
+                <br>
+                <br>
+                <label><input type="radio" name="duration" value="Half Day (3 Hrs)">Half Day (3 Hrs)</label>
+                <br>
+                <br>
+                <label><input type="radio" name="duration" value="Full Day">Full Day</label>
+                <br>
+                <br>
+                <label>Rental Type</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Honda Metro">Honda Metro Scooter</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Honda Dio">Honda Dio Scooter</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Honda PCX">Honda PCX150 Scooter</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Honda Pioneer">Honda Pioneer ATV</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Jeep Wrangler 4">Jeep Wrangler - 4 door with a/c</label>
+                <br>
+                <br>
+                <label><input type="radio" name="type" value="Jeep Wrangler 2">Jeep Wrangler - 2 door</label>
+                <br>
+                <br>
+                <label>Number* <input type="number" name="quantity" required></label>
+                <br>
+                <br>
+                <label>Full Name* <input type="text" id="name" name="name" required></label>
+                <br>
+                <br>
+                <label>Email* <input type="email" id="mail" name="email" placeholder="johndoe@gmail.com" required></label>
+                <br>
+                <br>
+                <label>Phone* <input type="tel" id="phone" name="phone" required></label>
+                <br>
+                <br>
+                <label>Home State or Country* <input type="text" id="home" name="home"></label>
+                <br>
+                <br>
+                <label>Cruise Line (if applicable) <input type="text" id="cruise" name="cruise" required></label>
+                <br>
+                <br>
+                <label id="accomhead">
+                    Accomidations/Requests
+                </label>
+                <textarea name="description" id="accom" rows="5" cols="80" placeholder="Enter accomidations or requests here (optional)"></textarea>
+
+                <input type="hidden" id="hide" name="hide">
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <p>
