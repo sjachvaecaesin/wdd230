@@ -5,60 +5,60 @@
             "occupancy": "1",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/honda-metro.png",
             "alt": "Honda Metro",
-            "reserve-half": 20,
-            "reserve-full": 30,
-            "walk-half": 25,
-            "walk-full": 35
+            "reservehalf": 20,
+            "reservefull": 30,
+            "walkhalf": 25,
+            "walkfull": 35
         },
         {
             "name": "Honda Dio Scooter",
             "occupancy": "2",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/honda-dio.png",
             "alt": "Honda Dio",
-            "reserve-half": 30,
-            "reserve-full": 40,
-            "walk-half": 35,
-            "walk-full": 45
+            "reservehalf": 30,
+            "reservefull": 40,
+            "walkhalf": 35,
+            "walkfull": 45
         },
         {
             "name": "Honda PCX150 Scooter",
             "occupancy": "2",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/honda-pcx.png",
             "alt": "Honda PCX150",
-            "reserve-half": 40,
-            "reserve-full": 50,
-            "walk-half": 45,
-            "walk-full": 55
+            "reservehalf": 40,
+            "reservefull": 50,
+            "walkhalf": 45,
+            "walkfull": 55
         },
         {
             "name": "Honda Pioneer ATV",
             "occupancy": "4",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/honda-pioneer.png",
             "alt": "Honda Pioneer",
-            "reserve-half": 50,
-            "reserve-full": 70,
-            "walk-half": 60,
-            "walk-full": 80
+            "reservehalf": 50,
+            "reservefull": 70,
+            "walkhalf": 60,
+            "walkfull": 80
         },
         {
             "name": "Jeep Wrangler - 4 door with a/c",
             "occupancy": "5",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/double-jeep.png",
             "alt": "4 door Jeep Wrangler",
-            "reserve-half": 70,
-            "reserve-full": 100,
-            "walk-half": 85,
-            "walk-full": 125
+            "reservehalf": 70,
+            "reservefull": 100,
+            "walkhalf": 85,
+            "walkfull": 125
         },
         {
             "name": "Jeep Wrangler - 2 door",
             "occupancy": "4",
             "image": "https://sjachvaecaesin.github.io/wdd230/project/images/single-jeep.png",
             "alt": "2 door Jeep Wrangler",
-            "reserve-half": 60,
-            "reserve-full": 85,
-            "walk-half": 70,
-            "walk-full": 90
+            "reservehalf": 60,
+            "reservefull": 85,
+            "walkhalf": 70,
+            "walkfull": 90
         }
     ]
 }
