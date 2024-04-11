@@ -7,17 +7,20 @@
     <meta name="description" content="Contact page for the Scoots Motor Scooter Rental site, part of the final project for WDD230.">
     <meta property="og:title" content="Elias Streeter - WDD 230 - Scoots Motor Scooter Rental Contact Page">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://sjachvaecaesin.github.io/wdd230/project/">
+    <meta property="og:image" content="https://sjachvaecaesin.github.io/wdd230/project/port-image.png">
     <meta property="og:url" content="https://sjachvaecaesin.github.io/wdd230/project/contact.html">
     <title>Scoots Motor Scooter Rental Website</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" hreft="styles/medium.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>~Scoots~ Motor Scooter Rental</h1>
+        <h1>~Scoots~ 🛵 Motor Scooter Rental</h1>
+        <div class="wrapper">
+            <a id="action" href="reservations.html">Reserve Now!</a>
+        </div>
         <button id="menu" aria-label="Hamburger button"></button>
     </header>
     <nav class="navigation">
@@ -25,15 +28,45 @@
             <li><a href="https://sjachvaecaesin.github.io/wdd230/project/index.html">Home</a></li>
             <li><a href="https://sjachvaecaesin.github.io/wdd230/project/rentals.html">Rentals</a></li>
             <li><a href="https://sjachvaecaesin.github.io/wdd230/project/reservations.html">Reservations</a></li>
-            <li><a href="https://sjachvaecaesin.github.io/wdd230/project/conctact.html" class="active">Contact Us</a></li>
+            <li><a href="https://sjachvaecaesin.github.io/wdd230/project/contact.html" class="active">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="contact-grid">
+        <form method="get" action="project/thanks.html">
+            <fieldset>
+                <label>Name* <input type="text" id="first" name="fname" required></label>
+                <br>
+                <br>
+                <label>Email* <input type="email" id="mail" name="email" placeholder="johndoe@gmail.com" required></label>
+                <br>
+                <br>
+                <label id="comment">
+                    Questions/Comments
+                </label>
+                <br>
+                <textarea name="description" id="description" rows="5" cols="80" placeholder="Enter any questions or comments here"></textarea>
+
+                <input type="hidden" id="hide" name="hide">
+            </fieldset>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1712798649933!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>
-            Elias Streeter | WDD230 Final Project | Last Updated: <span id="lastModified"></span>
+            Need help or have a question? Call us at +52-987-SCOOTS1 (+52-987-7266871)<br><br>Elias Streeter | WDD230 Final Project | Last Updated: <span id="lastModified"></span>
         </p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
     <script src="scripts/modified.js"></script>
 </body>
