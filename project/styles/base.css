@@ -22,7 +22,7 @@ header h1 {
 #action {
     text-decoration: none;
     color: black;
-    background-color: red;
+    background-color: #FF6666;
     border: 1px solid black;
     border-radius: 7px;
     padding: 16px;
